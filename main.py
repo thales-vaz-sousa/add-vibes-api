@@ -11,7 +11,7 @@ api.add_middleware(
     allow_origins=[
         "http://localhost:4200",
         "https://localhost:4200",
-        "https://addvibes.netlify.app" 
+        "https://app-vibes-ui.netlify.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
