@@ -70,7 +70,7 @@ Você verá o menu abaixo no terminal:
 
 ```
 ╔══════════════════════════════╗
-║       🎵  AddVibes CLI        ║
+║       🎵  AddVibes CLI       ║
 ╠══════════════════════════════╣
 ║  1 - Listar músicas          ║
 ║  2 - Adicionar música        ║
