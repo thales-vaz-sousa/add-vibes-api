@@ -8,7 +8,11 @@ api = FastAPI(title="AddVibes API", docs_url=None)
 # interceptar chamadas a api
 api.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:4200", "https://localhost:4200"],
+    allow_origins=[
+        "http://localhost:4200",
+        "https://localhost:4200",
+        "https://addvibes.netlify.app" 
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
