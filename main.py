@@ -20,7 +20,7 @@ api.include_router(music_router)
 @api.get("/docs", include_in_schema=False)
 async def scalar_html():
     return get_scalar_api_reference(
-        openapi_url=api.openapi_url,
+        openapi_url="https://add-vibes-api.onrender.com/openapi.json",
         title=api.title,
         show_sidebar=True,
         hide_client_button=True,
