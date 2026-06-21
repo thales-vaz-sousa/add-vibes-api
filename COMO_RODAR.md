@@ -14,7 +14,7 @@ Antes de qualquer coisa, certifique-se de ter instalado:
 Se estiver usando Git:
 
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/thales-vaz-sousa/add-vibes-api.git
 cd addvibes
 ```
 
